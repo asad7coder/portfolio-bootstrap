@@ -105,7 +105,7 @@ nav ul li a:hover{
   transform: scale(1.2);
 }
 .about-right{
-  padding: 50px;
+  padding: 0px;
 }
 .about-right p{
   font-size: 20px;

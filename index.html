@@ -51,27 +51,37 @@
             />
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav m-auto p-2">
+            <ul class="navbar-nav nav-pills m-auto p-2">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#hero">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#project">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About me</a>
+                <a class="nav-link" href="#about">About me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#service">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact us</a>
+                <a class="nav-link" href="#contact">Contact us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Github</a>
+                <a
+                  class="nav-link"
+                  href="https://github.com/asad7coder"
+                  target="_blank"
+                  >Github</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">My CV</a>
+                <a
+                  class="nav-link"
+                  href="https://drive.google.com/file/d/1z5XIAcsbYt2VcQ1xFBb2GTpx8-Lxyumk/view"
+                  target="_blank"
+                  >My CV</a
+                >
               </li>
             </ul>
           </div>
@@ -83,15 +93,15 @@
     <!-- main section start -->
     <main>
       <!-- 02 Hero Section start -->
-      <section class="hero">
-        <div class="container text-center">
+      <section class="hero" data-bs-offset="0">
+        <div class="container text-center" id="hero">
           <img
             src="imgs/hero-img.jpeg"
             alt=""
             class="img-thumbnail w-25 hero-img"
           />
           <h1 class="fs-1">Muhammad Asad</h1>
-          <h1 class="display-5 display-sm-3">
+          <h1 class="display-md-5 display-sm-3 display-6">
             Front-End Developer base in Pakistan
           </h1>
           <p class="px-lg-4 mx-lg-4 px-sm-2 mx-sm-0">
@@ -103,7 +113,7 @@
           <button
             class="btn d-flex justify-content-center align-items-center gap-2"
           >
-            Contact with me
+            <a href="#contact"> Contact with me </a>
             <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
@@ -111,62 +121,60 @@
       <!-- Hero Section end  -->
 
       <!-- 03 Project Section Start -->
-      <section class="project">
+      <section class="project" id="project">
+        <h1 class="title-main text-center my-4">My Projects</h1>
         <div class="container">
-          <h1 class="title-main text-center my-4">My Projects</h1>
-          <div class="container">
-            <div
-              class="row d-flex align-item-center justify-content-center gap-3"
-            >
-              <div class="card bg-dark border box-p col-6" style="width: 18rem">
-                <div class="card-body">
-                  <h3 class="card-title">Green Line Labore</h3>
-                  <p class="card-text">
-                    This Project are Gadner services offer and showing works
-                  </p>
-                  <a href="#" class="btn"
-                    >Visit Site
-                    <i class="fa-solid fa-arrow-right ps-1"></i>
-                  </a>
-                </div>
+          <div
+            class="row d-flex align-item-center justify-content-center gap-3"
+          >
+            <div class="card bg-dark border box-p col-6" style="width: 18rem">
+              <div class="card-body">
+                <h3 class="card-title">Green Line Labore</h3>
+                <p class="card-text">
+                  This Project are Gadner services offer and showing works
+                </p>
+                <a href="#" class="btn"
+                  >Visit Site
+                  <i class="fa-solid fa-arrow-right ps-1"></i>
+                </a>
               </div>
-              <div class="card bg-dark border box-p col-6" style="width: 18rem">
-                <div class="card-body">
-                  <h3 class="card-title">FA Teachno Skills</h3>
-                  <p class="card-text">
-                    FA Techno Skills Welcome to FA Techno Skills, a
-                    comprehensive....
-                  </p>
-                  <a href="#" class="btn"
-                    >Visit Site
-                    <i class="fa-solid fa-arrow-right ps-1"></i>
-                  </a>
-                </div>
+            </div>
+            <div class="card bg-dark border box-p col-6" style="width: 18rem">
+              <div class="card-body">
+                <h3 class="card-title">FA Teachno Skills</h3>
+                <p class="card-text">
+                  FA Techno Skills Welcome to FA Techno Skills, a
+                  comprehensive....
+                </p>
+                <a href="#" class="btn"
+                  >Visit Site
+                  <i class="fa-solid fa-arrow-right ps-1"></i>
+                </a>
               </div>
-              <div class="card bg-dark border box-p col-6" style="width: 18rem">
-                <div class="card-body">
-                  <h3 class="card-title">Add Task</h3>
-                  <p class="card-text">
-                    This Project are Todo-List/Add task Daily
-                  </p>
-                  <a href="#" class="btn"
-                    >Visit Site
-                    <i class="fa-solid fa-arrow-right ps-1"></i>
-                  </a>
-                </div>
+            </div>
+            <div class="card bg-dark border box-p col-6" style="width: 18rem">
+              <div class="card-body">
+                <h3 class="card-title">Add Task</h3>
+                <p class="card-text">
+                  This Project are Todo-List/Add task Daily
+                </p>
+                <a href="#" class="btn"
+                  >Visit Site
+                  <i class="fa-solid fa-arrow-right ps-1"></i>
+                </a>
               </div>
-              <div class="card bg-dark border box-p col-6" style="width: 18rem">
-                <div class="card-body">
-                  <h3 class="card-title">Calculator</h3>
-                  <p class="card-text">
-                    It supports fundamental arithmetic operations such as
-                    addition, subtraction, multiplication ....
-                  </p>
-                  <a href="#" class="btn"
-                    >Visit Site
-                    <i class="fa-solid fa-arrow-right ps-1"></i>
-                  </a>
-                </div>
+            </div>
+            <div class="card bg-dark border box-p col-6" style="width: 18rem">
+              <div class="card-body">
+                <h3 class="card-title">Calculator</h3>
+                <p class="card-text">
+                  It supports fundamental arithmetic operations such as
+                  addition, subtraction, multiplication ....
+                </p>
+                <a href="#" class="btn"
+                  >Visit Site
+                  <i class="fa-solid fa-arrow-right ps-1"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -176,14 +184,16 @@
 
       <!-- 04 About Section Start -->
       <section class="about">
-        <div class="container-md mx-5">
+        <div class="container mx-3" id="about">
           <h1 class="title-main text-center my-4">About me</h1>
-          <div class="row">
-            <div class="col-lg-4">
+          <div
+            class="row d-flex align-item-center justify-content-center gap-3"
+          >
+            <div class="col-lg-4 ps-4">
               <img
                 src="imgs/about-img.jpeg"
                 alt="about-img"
-                class="img-thumbnail w-lg-85 w-sm-50 w-75 about-img"
+                class="img-thumbnail w-lg-85 w-sm-50 w-75 my-4 about-img"
               />
             </div>
             <div class="col-lg-8 about-right">
@@ -219,7 +229,7 @@
       <!-- 04 About Section end -->
 
       <!-- 05 Services section start -->
-      <section class="services">
+      <section class="services" id="service">
         <div class="container">
           <h1 class="title-main text-center my-4">Our Services</h1>
           <div class="row text-center">
@@ -290,7 +300,7 @@
       <!-- 05 Services section end -->
 
       <!-- 06 contact section start -->
-      <section class="contact">
+      <section class="contact" id="contact">
         <div class="container">
           <h1 class="title-main text-center my-4">Our Contact</h1>
           <div class="row">
