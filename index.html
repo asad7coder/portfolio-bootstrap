@@ -111,9 +111,7 @@
             and managing dynamic websites.
           </p>
           <a href="#contact">
-            <button
-              class="btn d-flex justify-content-center align-items-center gap-2"
-            >
+            <button class="btn">
               Contact with me
               <i class="fa-solid fa-arrow-right"></i>
             </button>
@@ -123,9 +121,9 @@
       <!-- Hero Section end  -->
 
       <!-- 03 Project Section Start -->
-      <section class="project" id="project">
+      <section class="project">
         <div class="container">
-          <h1 class="title-main text-center my-4">My Projects</h1>
+          <h1 class="title-main text-center my-4" id="project">My Projects</h1>
           <div
             class="row d-flex align-item-center justify-content-center gap-3"
           >
@@ -198,26 +196,24 @@
 
       <!-- 04 About Section Start -->
       <section class="about">
-        <div class="container mx-3" id="about">
+        <div class="container" id="about">
           <h1 class="title-main text-center my-4">About me</h1>
-          <div
-            class="row d-flex align-items-center justify-content-center gap-30"
-          >
-            <div class="col-lg-4 ps-4">
+          <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-lg-4 col-md-12 text-center">
               <img
                 src="imgs/about-img.jpeg"
                 alt="about-img"
-                class="img-thumbnail w-lg-85 w-sm-50 w-75 my-4 about-img"
+                class="img-thumbnail about-img mb-3"
               />
             </div>
-            <div class="col-lg-8 about-right">
-              <p>
+            <div class="col-lg-8 col-12 about-right">
+              <p class="px-2">
                 I am an experienced Frontend Developer with over a decade of
                 professional expertise in the field. Throughout my career, I
                 have had the privilege of collaborating with prestigious
                 organizations, contributing to their success and growth.
               </p>
-              <p>
+              <p class="px-2">
                 My passion for frontend development is not only reflected in my
                 extensive experience but also in the enthusiasm and dedication I
                 bring to ea ch project.
@@ -245,11 +241,11 @@
       <!-- 04 About Section end -->
 
       <!-- 05 Services section start -->
-      <section class="services" id="service">
+      <section class="services">
         <div class="container">
-          <h1 class="title-main text-center my-4">Our Services</h1>
-          <div class="row text-center">
-            <div class="col-lg-4 d-flex justify-content-center my-2">
+          <h1 class="title-main text-center my-4" id="service">Our Services</h1>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex justify-content-center my-2">
               <div
                 class="card bg-dark border box-p text-start col-6 col-md-6 w-md-75 col-lg-6 rounded"
               >
@@ -261,15 +257,15 @@
                     programming...
                   </p>
                   <a
-                    href="#"
+                    href="#contact"
                     class="btn d-flex justify-content-center align-items-center gap-2"
-                    >Visit Site
+                    >Interested
                     <i class="fa-solid fa-arrow-right"></i>
                   </a>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 d-flex justify-content-center my-2">
+            <div class="col-lg-4 col-md-6 d-flex justify-content-center my-2">
               <div
                 class="card bg-dark border box-p text-start col-6 rounded"
                 style="width: 18rem"
@@ -282,15 +278,15 @@
                     programming...
                   </p>
                   <a
-                    href="#"
+                    href="#contact"
                     class="btn d-flex justify-content-center align-items-center gap-2"
-                    >Visit Site
+                    >Interested
                     <i class="fa-solid fa-arrow-right ps-1"></i>
                   </a>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 d-flex justify-content-center my-2">
+            <div class="col-lg-4 col-md-6 d-flex justify-content-center my-2">
               <div
                 class="card bg-dark border box-p text-start col-6 rounded"
                 style="width: 18rem"
@@ -302,9 +298,9 @@
                     Graphic Desining is the process of building, Desining...
                   </p>
                   <a
-                    href="#"
+                    href="#contact"
                     class="btn d-flex justify-content-center align-items-center gap-2"
-                    >Visit Site
+                    >Interested
                     <i class="fa-solid fa-arrow-right ps-1"></i>
                   </a>
                 </div>
@@ -401,8 +397,12 @@
 
     <footer>
       <div class="container">
-        <div class="col">
-          <p>© 2024 Muhammad Asad. All rights reserved.</p>
+        <div class="row">
+          <div
+            class="col border border-success my-4 p-3 text-center rounded-pill"
+          >
+            <p>© 2024 Muhammad Asad. All rights reserved.</p>
+          </div>
         </div>
       </div>
     </footer>

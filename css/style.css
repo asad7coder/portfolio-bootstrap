@@ -98,6 +98,8 @@ nav ul li a:hover{
 
 /* 04 about section start */
 .about-img{
+  width: 32%;
+  min-width: 300px;
   border-radius: 30px;
   transition: all 0.3s ease-in-out;
 }
