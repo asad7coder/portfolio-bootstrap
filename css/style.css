@@ -68,12 +68,20 @@ nav ul li a:hover{
 }
 /* hero section end */
 
-/* hero section start */
+/* title start */
 .title-main{
   font-size: 60px;
   font-weight: 700;
 }
-/* hero section end */
+
+@media (max-width:400px) {
+  .title-main{
+    font-size: 40px;
+    font-weight: 600;
+  }
+  
+}
+/* title end */
 
 /* 03 project section start */
 .box-p{
@@ -155,9 +163,9 @@ nav ul li a:hover{
   resize: none;
 }
 .contact form input:focus{
-  /* background-color:azure; */
+  
   color: black;
-  border: 2px solid blue;
+  
   border-radius: 13px;
 }
 
